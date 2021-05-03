@@ -2,7 +2,7 @@
 by Jeff Karmazin
 
 ## Analysis of Car Accidents in Pennsylvania
-### Pennsylvanie Department of Transportation Car Accident Data
+### Pennsylvania Department of Transportation Car Accident Data
 The main dataset used in this analysis has been provided through the Pennsylvania Department of Transportation, representing all car accidents in PA for the year of 2019. The purpose of this dataset it to provide information on car accident locations and more data regarding these accidents. PennDOT's goal is to provide this maintain and provide this information in order to utlize law enforcement, engineering, and education to main safe highway systems.
 
 This dataset is quite extensive, breaking accident data into many different categories and providing much specific information. For further analysis, the tiger line roads data for PA has also been utilized provided by the US Census Bureau. The car accident dataset will be used to determine and locate the most dangerous roads in Pennsylvania. Some questions to be answered include 
