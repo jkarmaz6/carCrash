@@ -34,7 +34,7 @@ The *geom* column utilizes longitude and latitude coordinates provided with the 
 
 The *crash_road* data table contains 6 columns: *id, gid, lane_count, speed_limit, street_name, county*. *id* is the primary key in this table, with a foreign key *gid* to the main crash table. *lane_count, speed_limit, county* all are of integer data types and are selected exactly from their original form in the original dataset. *street_name* is of variable character form for reference to real world street names. *county* is a lookup table to specific county codes for a second location look up in the case of duplicate street names across PA regions.
 
-![ERD] (ERD.jpeg)
+![ERD](ERD.jpeg)
 
 TigerLine Road data is used in its original form provided from the US Census Bureau and not further normalized. For the purpose of this analysis, it is used as a second source of geometry to cross reference the car accident data. Columns utilized here are the *geom* and *full_name* to determine road locations.
 
